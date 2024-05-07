@@ -28,6 +28,7 @@ ul {
     padding: 0;
 }
 
+
 .navbar {
     display: flex;
     padding: 30px 40px;
@@ -233,6 +234,12 @@ ul {
     }
 }
 
+@media (max-width:860px) {
+    .navbar {
+        padding: 30px 15px;
+    }
+}
+
 @media (max-width:768px) {
 
     .f-buttom {
@@ -407,3 +414,4 @@ ul {
         transition: .3s;
     }
 }
+
